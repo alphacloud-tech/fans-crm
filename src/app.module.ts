@@ -13,7 +13,7 @@ import { databaseConfig } from './config/database.config';
     ConfigModule.forRoot(),
     SequelizeModule.forRoot(databaseConfig),
     UsersModule,
-    AuthModule
+    AuthModule,
   ],
   controllers: [],
   providers: [],
